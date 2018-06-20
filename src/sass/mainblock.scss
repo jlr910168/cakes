@@ -1,0 +1,62 @@
+.main {
+  height: calc(100vh - 100px);
+  position: relative;
+}
+
+.cake-background {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  width: 1179px;
+  height: 941px;
+  background: center center no-repeat url('../img/main_background.png');
+  background-size: 1179px 941px;
+  z-index: -1;
+}
+
+.main_section {
+  padding-top: 120px;
+}
+
+.main_heading {
+  font-size: 78px;
+  line-height: 70px;
+}
+
+.main_subheading {
+  font-family: 'MarckScript-Regular';
+  margin-top: 30px;
+}
+
+.main_button {
+  width: 225px;
+  margin-top: 60px;
+}
+
+.features {
+  margin-top: 120px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.feature {
+  width: 50%;
+  font-family: 'OpenSans-SemiBold';
+  font-size: 14px;
+  height: 55px;
+  padding-left: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients {
+  box-sizing: content-box;
+  width: 160px;
+  background: no-repeat url('../img/ingredients.png');
+}
+.delivery {
+  box-sizing: content-box;
+  width: 200px;
+  background: no-repeat url('../img/delivery.png');
+}

@@ -1,0 +1,46 @@
+@import 'variables';
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.header-logo {
+  font-family: 'PlayfairDisplay';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 23px;
+  margin-right: 47px;
+  display: block;
+}
+
+.header-link {
+  text-decoration: none;
+  font-family: 'OpenSans-SemiBold';
+  font-weight: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: $text-color;
+  margin-right: 44px;
+}
+
+.header-link:last-child {
+  margin-right: 0;
+}
+
+.header-link:hover {
+  color: $link-focus-color;
+}
+
+.header-phone {
+  font-family: 'OpenSans-Bold';
+  margin-left: auto;
+}

@@ -1,9 +1,5 @@
 @import 'variables';
 
-.about {
-  margin-bottom: 500px;
-}
-
 .about__confectioner {
   margin-bottom: 110px;
 }
@@ -65,6 +61,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .about-quote__quotes {
@@ -82,4 +79,63 @@
   font-family: 'PlayfairDisplay';
   font-style: italic;
   font-size: 25px;
+}
+
+.about-advantages {
+  height: 565px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-advantages__bgpic {
+  position: absolute;
+  background-image: url('../img/advantages-bg.png');
+  background-repeat: no-repeat;
+  width: 565px;
+  height: 690px;
+  top: -10%;
+  left: -73px;
+}
+
+.about-advantages__heading {
+  margin-bottom: 20px;
+}
+
+.about-advantages__subheading {
+  margin-bottom: 130px;
+}
+
+.about-advantages__info {
+  width: 460px;
+  position: relative;
+  left: 180px;
+
+}
+
+.about-advantages__info p {
+  padding-left: 100px;
+  line-height: 24px;
+}
+
+.about-advantages__info strong {
+  font-family: 'OpenSans-Bold';
+  display: block;
+  line-height: 27px;
+}
+
+.about-advantages__info-ingridients {
+  background-image: url('../img/ingredients.png');
+  background-repeat: no-repeat;
+  background-position: 14px center;
+  background-size: auto 60px;
+  margin-bottom: 30px;
+}
+
+.about-advantages__info-fresh {
+  background-image: url('../img/fresh.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 50px;
 }

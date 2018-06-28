@@ -39,6 +39,7 @@ body {
   font-size: 13px;
   color: #fff;
   outline: none;
+  padding: 0;
 }
 
 .button:hover {
@@ -55,6 +56,29 @@ img {
   height: 16px;
   width: auto;
   color: $slide-arrow-color;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  padding: 13px 0;
+  border: 0;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.input:hover {
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 @import 'header';

@@ -1,0 +1,54 @@
+@import 'variables';
+
+.about {
+
+}
+
+.about__confectioner {
+  margin-bottom: 110px;
+}
+
+.about__confectioner-header {
+  margin-bottom: 20px;
+}
+
+.about__confectioner-photo {
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  top: -80px;
+  right: 70px;
+}
+
+.about__confectioner-text {
+  font-family: 'OpenSans-Regular';
+  width: 600px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.about__confectioner-text strong {
+  margin: 15px 0 10px 0;
+  display: block;
+  font-family: 'OpenSans-Bold';
+}
+
+.about__confectioner-social {
+  display: flex;
+  width: 140px;
+  justify-content: space-around;
+}
+
+.about__confectioner-social a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $button-color;
+}

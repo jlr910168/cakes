@@ -61,7 +61,7 @@ img {
 }
 
 .slide-arrows {
-  height: 16px;
+  height: 16px; 
   width: auto;
   color: $slide-arrow-color;
 }
@@ -100,3 +100,4 @@ ul {
 @import 'our-cakes';
 @import 'custom-order';
 @import 'reviews';
+@import 'about';

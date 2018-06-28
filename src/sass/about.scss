@@ -91,10 +91,8 @@
 
 .about-advantages__bgpic {
   position: absolute;
-  background-image: url('../img/advantages-bg.png');
-  background-repeat: no-repeat;
   width: 565px;
-  height: 690px;
+  height: 490px;
   top: -10%;
   left: -73px;
 }
@@ -111,7 +109,6 @@
   width: 460px;
   position: relative;
   left: 180px;
-
 }
 
 .about-advantages__info p {
@@ -138,4 +135,33 @@
   background-repeat: no-repeat;
   background-position: left center;
   background-size: auto 50px;
+}
+
+.about-care {
+  height: 772px;
+  padding-top: 265px;
+  display: flex;
+  overflow: hidden;
+}
+
+.about-care__cont {
+  width: 413px;
+}
+
+.about-care__heading {
+  margin-bottom: 15px;
+}
+
+.about-care__subheading {
+  margin-bottom: 10px;
+}
+
+.about-care__text {
+  line-height: 24px;
+}
+.about-care__bg {
+  width: 768px;
+  height: 802px;
+  position: relative;
+  margin-top: -265px;
 }

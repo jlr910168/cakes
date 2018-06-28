@@ -45,7 +45,7 @@ gulp.task('fonts', fonts);
 
 gulp.task('watch', function() {
   gulp.watch('src/sass/*.scss', gulp.series(buildCss));
-  gulp.watch('src/*.html', gulp.series(copyHtml));
+  gulp.watch('src/*.html', gulp.series('copyHtml'));
 })
 
 gulp.task('serve', gulp.series(serveCss, function serve() {

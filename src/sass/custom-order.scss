@@ -24,6 +24,10 @@
   justify-content: center;
 }
 
+.custom-order__block:last-child {
+  margin-bottom: 0;
+}
+
 .custom-order__step {
   position: absolute;
   font-family: 'PlayfairDisplay';
@@ -232,8 +236,6 @@
   padding: 15px;
   height: 100%;
   display: flex;
-  list-style-type: none;
-  margin: 0;
   overflow: hidden;
 }
 

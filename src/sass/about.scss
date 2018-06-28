@@ -1,7 +1,7 @@
 @import 'variables';
 
 .about {
-
+  margin-bottom: 500px;
 }
 
 .about__confectioner {
@@ -51,4 +51,35 @@
   justify-content: center;
   align-items: center;
   color: $button-color;
+}
+
+.about__confectioner-social svg {
+  width: 20px;
+  height: 20px;
+}
+
+.about-quote {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-quote__quotes {
+  font-family: 'PlayfairDisplay';
+  font-size: 140px;
+  line-height: 40px;
+  color: #fff;
+  position: relative;
+  top: 30px;
+}
+
+.about-quote__text {
+  text-align: center;
+  line-height: 37px;
+  font-family: 'PlayfairDisplay';
+  font-style: italic;
+  font-size: 25px;
 }

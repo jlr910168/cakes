@@ -1,0 +1,41 @@
+@import 'variables';
+
+.footer {
+  height: 160px;
+  color: #fff;
+  background-color: #898989;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__cont {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 35px;
+}
+
+.footer__logo {
+  font-size: 28px;
+}
+
+.footer__navlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 160px;
+}
+
+.footer__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  width: 100%;
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

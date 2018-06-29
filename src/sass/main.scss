@@ -3,16 +3,15 @@
 @import 'fonts';
 
 html {
-  background-color: #fbebea;
+  background-color: #fbebea44;
 }
 
 body {
   width: 1366px;
   margin: 0 auto;
   padding: 0 73px;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
   font-family: 'OpenSans-SemiBold';
+  background-color: #fbebea;
 }
 
 * {
@@ -61,7 +60,7 @@ img {
 }
 
 .slide-arrows {
-  height: 16px; 
+  height: 16px;
   width: auto;
   color: $slide-arrow-color;
 }
@@ -89,7 +88,7 @@ p {
   border-bottom: 1px solid black;
 }
 
-ul {
+ul, ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -101,3 +100,4 @@ ul {
 @import 'custom-order';
 @import 'reviews';
 @import 'about';
+@import 'how-to-order';

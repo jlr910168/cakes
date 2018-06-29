@@ -1,0 +1,93 @@
+.contacts {
+  width: 100%;
+  height: 845px;
+  padding-top: 70px;
+  background: no-repeat right bottom url('../img/contacts__bg.jpg');
+}
+
+.contacts__heading {
+  margin-bottom: 30px;
+}
+
+.contacts__subheader {
+  margin-bottom: 20px;
+}
+
+.contacts__cont {
+  display: flex;
+}
+
+.contacts__form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding-right: 50px;
+  height: 340px;
+  justify-content: space-between;
+}
+
+
+.contacts__form input,
+.contacts__form textarea {
+  padding: 11px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.contacts__name-input,
+.contacts__email-input {
+  height: 50px;
+}
+
+.contacts__question-input {
+  height: 120px;
+  resize: none;
+}
+
+.contacts__button {
+  width: 178px;
+  margin-top: auto;
+}
+
+.contacts__social {
+  padding-left: 32px;
+  line-height: 24px;
+}
+
+.contacts__social-phone {
+  width: 255px;
+  margin-bottom: 20px;
+}
+
+.contacts__social-email {
+  margin-bottom: 20px;
+}
+
+.contacts__social-buttons {
+  display: flex;
+  margin-top: 15px;
+}
+
+.contacts__social-buttons a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #f50049;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__social-buttons a svg {
+  width: 30px;
+  height: 30px;
+}
+
+.social-ig {
+  margin-right: 30px;
+}

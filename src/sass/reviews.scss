@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .reviews__figures {
@@ -24,7 +25,7 @@
 
 .reviews__figure-right {
   background: no-repeat url('../img/review__figure-right.png');
-  left: 745px;
+  left: 891px;
 }
 
 .reviews__header {

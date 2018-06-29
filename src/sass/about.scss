@@ -2,6 +2,7 @@
 
 .about__confectioner {
   margin-bottom: 110px;
+  padding: 0 73px;
 }
 
 .about__confectioner-header {
@@ -57,6 +58,7 @@
 .about-quote {
   height: 300px;
   width: 100%;
+  padding: 0 73px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,6 +89,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 73px;
 }
 
 .about-advantages__bgpic {
@@ -94,7 +97,7 @@
   width: 565px;
   height: 490px;
   top: -10%;
-  left: -73px;
+  left: 0;
 }
 
 .about-advantages__heading {
@@ -139,7 +142,7 @@
 
 .about-care {
   height: 772px;
-  padding-top: 265px;
+  padding: 265px 73px 0 73px;
   display: flex;
   overflow: hidden;
 }

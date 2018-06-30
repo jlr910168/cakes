@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'OpenSans-Regular';
+  font-family: 'Open Sans';
   src: url('../fonts/OpenSans-Regular.woff') format('woff'),
        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
        url('../fonts/OpenSans-Regular.ttf') format('truetype');
@@ -8,25 +8,25 @@
 }
 
 @font-face {
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'Open Sans';
   src: url('../fonts/OpenSans-SemiBold.woff') format('woff'),
        url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
        url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'OpenSans-Bold';
+  font-family: 'Open Sans';
   src: url('../fonts/OpenSans-Bold.woff') format('woff'),
        url('../fonts/OpenSans-Bold.woff2') format('woff2'),
        url('../fonts/OpenSans-Bold.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair Display';
   src: url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
        url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair Display';
   src: url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff'),
        url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
        url('../fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-  font-family: 'MarckScript-Regular';
+  font-family: 'Marck Script';
   src: url('../fonts/MarckScript-Regular.woff') format('woff'),
        url('../fonts/MarckScript-Regular.woff2') format('woff2'),
        url('../fonts/MarckScript-Regular.ttf') format('truetype');

@@ -15,7 +15,6 @@
 }
 
 .how-to-order__heading {
-  margin-bottom: 30px;
   padding-left: 20px;
 }
 
@@ -31,13 +30,7 @@
 }
 
 .how-to-order__list-item p {
-  font-family: 'OpenSans-Regular';
   line-height: 24px;
-}
-
-.how-to-order__list-item strong {
-  font-family: 'OpenSans-Bold';
-  line-height: 27px;
 }
 
 .how-to-order__list-item:before {
@@ -45,7 +38,7 @@
   left: 10px;
   top: -20px;
   position: absolute;
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair Display';
   font-size: 64px;
   text-align: right;
   width: 30px;

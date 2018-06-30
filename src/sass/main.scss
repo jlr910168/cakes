@@ -3,28 +3,22 @@
 @import 'fonts';
 
 html {
-  background-color: #fbebea44;
+  background-color: #fff;
 }
 
 body {
   width: 1366px;
   margin: 0 auto;
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   background-color: #fbebea;
+  box-shadow:
+     10px 0 40px 0 rgba(0, 0, 0, 0.1),  2px 0 9px 0 rgba(62, 57, 107, 0.1),
+    -10px 0 40px 0 rgba(0, 0, 0, 0.1), -2px 0 9px 0 rgba(62, 57, 107, 0.1);
 }
 
 * {
   box-sizing: border-box;
-}
-
-.heading {
-  font-family: 'PlayfairDisplay';
-  font-size: 40px;
-}
-
-.subheading {
-  font-family: 'MarckScript-Regular';
-  font-size: 35px;
 }
 
 button {
@@ -42,7 +36,7 @@ button:focus {
   height: 50px;
   background-color: $button-color;
   border-radius: 25px;
-  font-family: 'OpenSans-SemiBold';
+  font-family: 'Open Sans';
   text-transform: uppercase;
   font-size: 13px;
   color: #fff;
@@ -93,6 +87,7 @@ ul, ol {
   padding: 0;
 }
 
+@import 'headers';
 @import 'header';
 @import 'mainblock';
 @import 'our-cakes';

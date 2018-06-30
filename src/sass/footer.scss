@@ -17,6 +17,7 @@
 
 .footer__logo {
   font-size: 28px;
+  margin-bottom: 0;
 }
 
 .footer__navlist {
@@ -24,6 +25,7 @@
   justify-content: space-between;
   width: 100%;
   margin: 0 160px;
+  font-size: 16px;
 }
 
 .footer__link {
@@ -38,4 +40,5 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  color: #b0b0b0;
 }

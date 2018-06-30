@@ -7,11 +7,6 @@
 
 .custom-order__heading-wrapper {
   text-align: center;
-  margin-bottom: 40px;
-}
-
-.custom-order__heading {
-  margin-bottom: 10px;
 }
 
 .custom-order__block {
@@ -31,18 +26,19 @@
 
 .custom-order__step {
   position: absolute;
-  font-family: 'PlayfairDisplay';
   color: #f50049;
-  top: 65px;
-  left: 80px;
+  top: 40px;
+  left: 60px;
 }
 
 .custom-order__step-no {
   font-size: 60px;
+  line-height: 50px;
+  margin-bottom: 14px;
 }
 
 .custom-order__step-desc {
-  font-size: 27px;
+  font-size: 30px;
 }
 
 .custom-order__arrow {
@@ -83,22 +79,22 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  font-family: 'Open Sans';
 }
 
 .custom-order__filling-name {
   font-size: 20px;
-  font-family: 'OpenSans-Bold';
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .custom-order__filling-desc {
-  font-size: 18px;
   margin-bottom: 20px;
-  font-family: 'OpenSans-Regular';
+  font-weight: normal;
 }
 
 .custom-order__filling-price {
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair Display';
   font-size: 22px;
   margin-bottom: 50px;
 }
@@ -119,6 +115,7 @@
   padding-top: 60px;
   display: flex;
   align-items: flex-end;
+  font-weight: 600;
 }
 
 .custom-order__size-type {
@@ -137,7 +134,6 @@
 }
 
 .custom-order__size-pic {
-  font-size: 16px;
   background: none;
   display: flex;
   justify-content: center;
@@ -274,11 +270,12 @@
 
 .custom-order__decor-choice__list-item__name {
   font-size: 20px;
+  font-weight: normal;
 }
 
 .custom-order__decor-choice__list-item__price {
   font-size: 22px;
-  font-family: 'PlayfairDisplay';
+  font-family: 'Playfair Display';
 }
 
 .custom-order__decor-choice__no {
@@ -304,7 +301,7 @@
   margin-bottom: 15px;
 }
 
-.custom-order__decor-form__subheading {
+.custom-order__decor-form__subheading h2 {
   font-size: 27px;
   color: $form-subheading-color;
 }

@@ -13,7 +13,7 @@
 <body>
   <header class="header">
     <div class="header-wrapper">
-      <div class="header-logo">Cakes</div>
+      <h1 class="header-logo">Cakes</h1>
       <nav class="header-navbar">
         <a class="header-link" href="#our-cakes">Наши Торты</a>
         <a class="header-link" href="#custom-order">Индивидуальный заказ</a>
@@ -27,13 +27,8 @@
   </header>
   <div class="main">
     <div class="main_section">
-      <div class="main_heading heading">
-        Торты
-        <br>на заказ
-      </div>
-      <div class="main_subheading subheading">
-        Ручная работа
-      </div>
+      <h1 class="main_heading">Торты<br>на заказ</h1>
+      <h2 class="main_subheading">Ручная работа</h2>
       <button class="button main_button">Выбрать торт</button>
       <div class="features">
         <div class="feature ingredients">
@@ -48,7 +43,7 @@
     </div>
   </div>
   <div id="our-cakes" class="our-cakes">
-    <div class="our-cakes_heading heading">Наши торты</div>
+    <h1 class="our-cakes_heading">Наши торты</h1>
     <div class="our-cakes_section">
       <div class="our-cakes_tile tile-big our-cakes_classic">
         <div class="our-cakes_heading-wrapper">
@@ -133,14 +128,14 @@
   </div>
   <div id="custom-order" class="custom-order">
     <div class="custom-order__heading-wrapper">
-      <div class="custom-order__heading heading">Индивидуальный заказ</div>
-      <div class="custom-order__subheading subheading">Соберите торт в 3 шага</div>
+      <h1 class="custom-order__heading">Индивидуальный заказ</h1>
+      <h2 class="custom-order__subheading">Соберите торт в 3 шага</h2>
     </div>
     <div class="custom-order__filling custom-order__block">
-      <div class="custom-order__step">
-        <span class="custom-order__step-no">01</span><br>
-        <span class="custom-order__step-desc">Выберите<br>начинку</span>
-      </div>
+      <h1 class="custom-order__step">
+        <div class="custom-order__step-no">01</div>
+        <div class="custom-order__step-desc">Выберите<br>начинку</div>
+      </h1>
       <div class="custom-order__arrow">
         <div class="custom-order__arrow-wrapper">
           <svg class="slide-arrows arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="50 0 451.847 451.847">
@@ -171,10 +166,10 @@
       </div>
     </div>
     <div class="custom-order__size custom-order__block">
-      <div class="custom-order__step">
-        <span class="custom-order__step-no">02</span><br>
-        <span class="custom-order__step-desc">Размер</span>
-      </div>
+      <h1 class="custom-order__step">
+        <div class="custom-order__step-no">02</div>
+        <div class="custom-order__step-desc">Размер</div>
+      </h1>
       <div class="custom-order__size-content">
         <div class="custom-order__size-type">
           <div class="size-pic-wrapper">
@@ -211,10 +206,10 @@
       </div>
     </div>
     <div class="custom-order__decor custom-order__block">
-      <div class="custom-order__step">
-        <span class="custom-order__step-no">03</span><br>
-        <span class="custom-order__step-desc">Оформление</span>
-      </div>
+      <h1 class="custom-order__step">
+        <div class="custom-order__step-no">03</div>
+        <div class="custom-order__step-desc">Оформление</div>
+      </h1>
       <div class="custom-order__decor-choice">
         <div class="custom-order__arrow">
           <div class="custom-order__arrow-wrapper">
@@ -253,18 +248,24 @@
         <div class="custom-order__decor-choice__no">2/35</div>
       </div>
       <div class="custom-order__decor-form">
-        <div class="custom-order__decor-form__heading heading">Ваш выбор</div>
+        <h1 class="custom-order__decor-form__heading">Ваш выбор</h1>
         <form>
           <div class="custom-order__decor-form__filling-choice">
-            <label for="filling-choice" class="custom-order__decor-form__subheading subheading">Начинка</label>
+            <label for="filling-choice" class="custom-order__decor-form__subheading">
+              <h2>Начинка</h2>
+            </label>
             <input class="input" id="filling-choice" type="text" placeholder="Выберите начинку">
           </div>
           <div class="custom-order__decor-form__size-choice">
-            <label for="size-choice" class="custom-order__decor-form__subheading  subheading">Размер</label>
+            <label for="size-choice" class="custom-order__decor-form__subheading">
+              <h2>Размер</h2>
+            </label>
             <input class="input" id="size-choice" type="text" placeholder="Размер">
           </div>
           <div class="custom-order__decor-form__decor-choice">
-            <label for="decor-choice" class="custom-order__decor-form__subheading  subheading">Оформление</label>
+            <label for="decor-choice" class="custom-order__decor-form__subheading">
+              <h2>Оформление</h2>
+            </label>
             <input class="input" id="decor-choice" type="text" placeholder="Выберите оформление">
           </div>
           <button onclick="return false;" class="custom-order__decor-form__order button">Заказать торт</button>
@@ -275,7 +276,7 @@
   <div id="reviews" class="reviews">
     <div class="reviews__figures reviews__figure-left"></div>
     <div class="reviews__figures reviews__figure-right"></div>
-    <div class="reviews__header heading">Отзывы</div>
+    <h1 class="reviews__header">Отзывы</h1>
     <div class="reviews__slider">
       <button class="reviews__slider-arrows">
         <svg class="slide-arrows arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.847 451.847">
@@ -313,19 +314,19 @@
     </div>
   </div>
   <div id="about" class="about">
+    <h1 class="about__confectioner-header">О нас</h1>
     <div class="about__confectioner">
-      <div class="about__confectioner-header heading">О нас</div>
       <img class="about__confectioner-photo" src="./img/confectioner.jpg" alt="">
       <div class="about__confectioner-text">
-          <p class="confectioner-subheading subheading">О кондитере</p>
-          <p><strong>Кондитер – как призвание</strong></p>
-          <p>
-            Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство.<br>С ранних лет он увлекался утонченным мастерством и обратился<br>к своим талантам как кондитер.
-          </p>
-          <p><strong>Принцип – натуральные ингредиенты</strong></p>
-          <p>
-            Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.
-          </p>
+        <h2 class="confectioner-subheading subheading">О кондитере</h2>
+        <h3>Кондитер – как призвание</h3>
+        <p>
+          Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как кондитер.
+        </p>
+        <h3>Принцип – натуральные ингредиенты</h3>
+        <p>
+          Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для торжества, а главным принципом является выбор натуральных ингредиентов.
+        </p>
       </div>
       <div class="about__confectioner-social">
         <a href="" class="social-ig">
@@ -360,23 +361,23 @@
       <div class="about-advantages__bgpic">
         <img src="./img/advantages-bg.png" alt="">
       </div>
-      <div class="about-advantages__heading heading">Наши преимущества</div>
-      <div class="about-advantages__subheading subheading">Почему нас выбирают?</div>
+      <h1 class="about-advantages__heading">Наши преимущества</h1>
+      <h2 class="about-advantages__subheading">Почему нас выбирают?</h2>
       <div class="about-advantages__info">
         <div class="about-advantages__info-ingridients">
-          <p><strong>Без искусственных добавок</strong></p>
-          <p>Работаем  с натуральными ингредиентами<br>и свежими продуктами</p>
+          <h3>Без искусственных добавок</h3>
+          <p>Работаем  с натуральными ингредиентами и свежими продуктами</p>
         </div>
         <div class="about-advantages__info-fresh">
-          <p><strong>Свежий торт в день торжества</strong></p>
-          <p>Торты изготавливаются в течение<br>суток до отправки</p>
+          <h3>Свежий торт в день торжества</h3>
+          <p>Торты изготавливаются в течение суток до отправки</p>
         </div>
       </div>
     </div>
     <div class="about-care">
       <div class="about-care__cont">
-        <div class="about-care__heading heading">Забота о клиентах</div>
-        <div class="about-care__subheading subheading">Для нас важно</div>
+        <h1 class="about-care__heading">Забота о клиентах</h1>
+        <h2 class="about-care__subheading">Для нас важно</h2>
         <p class="about-care__text">
           Нам важно чтобы каждый торт был безупречным,
           как внутри, так и снаружи, чтобы он был создан
@@ -390,10 +391,10 @@
   </div>
   <div id="how-to-order" class="how-to-order">
     <div class="how-to-order__cont">
-      <div class="how-to-order__heading heading">Как заказать</div>
+      <h1 class="how-to-order__heading">Как заказать</h1>
       <ol class="how-to-order__list">
         <li class="how-to-order__list-item">
-          <p><strong>Срок заказа</strong></p>
+          <h3>Срок заказа</h3>
           <p>
             Размещать заказы желательно за 2-3 дня.<br>
             На выходные заказы лучше размещать<br>
@@ -401,14 +402,14 @@
           </p>
         </li>
         <li class="how-to-order__list-item">
-          <p><strong>Доставка по городу</strong></p>
+          <h3>Доставка по городу</h3>
           <p>
             Доставка в пределах города 200 рублей , при<br>
             заказе на сумму более 2000  доставка бесплатно.
           </p>
         </li>
         <li class="how-to-order__list-item">
-          <p><strong>Доставка за городом</strong></p>
+          <h3>Доставка за городом</h3>
           <p>
             Доставка за пределами города рассчитывается<br>
             индивидуально.
@@ -418,8 +419,8 @@
     </div>
   </div>
   <div id="contacts" class="contacts">
-    <div class="contacts__heading heading">Контакты</div>
-    <div class="contacts__subheader subheading">Остались вопросы?</div>
+    <h1 class="contacts__heading">Контакты</h1>
+    <h2 class="contacts__subheader">Остались вопросы?</h2>
     <div class="contacts__cont">
       <form action="" class="contacts__form">
         <p>Заполните форму ниже и наш кондитер свяжется с Вами</p>
@@ -449,9 +450,9 @@
   </div>
   <footer class="footer">
     <div class="footer__cont">
-      <div class="footer__logo heading">Cakes</div>
+      <h1 class="footer__logo">Cakes</h1>
       <div class="footer__navlist">
-        <a class="footer__link" href="#our-cakes">Наши Торты</a>
+        <a class="footer__link" href="#our-cakes">Наши торты</a>
         <a class="footer__link" href="#custom-order">Индивидуальный заказ</a>
         <a class="footer__link" href="#reviews">Отзывы</a>
         <a class="footer__link" href="#about">О нас</a>

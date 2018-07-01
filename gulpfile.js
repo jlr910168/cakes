@@ -27,7 +27,7 @@ gulp.task('copyHtml', function() {
   return gulp
     .src('src/*.html')
     .pipe(gulp.dest('dist/'));
-})
+});
 
 function fonts(done) {
   del(['src/fonts/*', '!src/fonts/*.ttf']);
@@ -38,7 +38,7 @@ function fonts(done) {
     .dest('src/fonts/');
   fontmin.run(function(e) {
     if (e) throw e;
-  })
+  });
   done();
 }
 gulp.task('fonts', fonts);
@@ -46,7 +46,7 @@ gulp.task('fonts', fonts);
 gulp.task('watch', function() {
   gulp.watch('src/sass/*.scss', gulp.series(buildCss));
   gulp.watch('src/*.html', gulp.series('copyHtml'));
-})
+});
 
 gulp.task('serve', gulp.series(serveCss, function serve() {
   browserSync.init({ server: { baseDir: './src/' } });

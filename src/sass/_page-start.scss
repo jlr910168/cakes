@@ -1,17 +1,10 @@
 .page-start {
-  height: calc(100vh - 100px);
+  height: 941px;
   position: relative;
   padding: 0 73px;
-}
-
-.page-start__cake-bg {
-  position: absolute;
-  top: 0px;
-  left: 300px;
-  width: 1179px;
-  height: 941px;
   background: center center no-repeat url('../img/page-start__cake-bg.png');
   background-size: 1179px 941px;
+  background-position: 300px 0px;
 }
 
 .page-start__section {

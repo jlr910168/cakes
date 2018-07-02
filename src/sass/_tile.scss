@@ -1,0 +1,92 @@
+.tile {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 10px 12.74px 0.26px rgba(163, 6, 60, 0.05);
+}
+
+.tile:hover {
+  box-shadow: 0px 10px 12.74px 0.26px rgba(163, 6, 60, 0.12);
+}
+
+.tile__header-wrapper {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.tile__header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.tile__amount {
+  font-size: 20px;
+  line-height: 20px;
+  color: #787878;
+  margin-top: 10px;
+}
+
+.tile__view {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 35px;
+  right: 65px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  height: 40px;
+  min-width: 40px;
+  font-weight: 600;
+}
+
+.tile__view:hover {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.tile--first .tile__view-arrow {
+  margin-left: 20px;
+}
+
+.tile--classic {
+  background-image: url('../img/our-cakes_classic.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tile--mousse {
+  background-image: url('../img/our-cakes_mousse.jpg');
+  background-repeat: no-repeat;
+  background-position: 40% 60%;
+}
+
+.tile--wedding {
+  background-image: url('../img/our-cakes_wedding.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tile--child {
+  background-image: url('../img/our-cakes_child2.jpg');
+  background-repeat: no-repeat;
+  background-position: center 60%;
+  background-size: auto 80%;
+}
+
+.tile--male {
+  background-image: url('../img/our-cakes_man.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.tile--female {
+  background-image: url('../img/our-cakes_woman.jpg');
+  background-repeat: no-repeat;
+  background-position: center 60%;
+}
+
+.tile__view-arrow {
+  color: #787878;
+}

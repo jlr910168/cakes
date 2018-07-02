@@ -1,43 +1,43 @@
 @import 'variables';
 
-.header {
+.page-header {
   height: 100px;
   display: flex;
   align-items: center;
   padding: 0 73px;
 }
 
-.header-wrapper {
+.page-header__wrapper {
   display: flex;
   width: 100%;
   justify-content: flex-start;
   align-items: baseline;
 }
 
-.header-logo {
+.page-header__logo {
   font-size: 24px;
   margin: 0 47px 0 0;
 }
 
-.header-link {
+.page-header__link {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  color: $text-color;
+  color: black;
   margin-right: 44px;
 }
 
-.header-link:last-child {
+.page-header__link:last-child {
   margin-right: 0;
 }
 
-.header-link:hover {
+.page-header__link:hover {
   color: $link-focus-color;
 }
 
-.header-phone {
+.page-header__phone {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   margin-left: auto;

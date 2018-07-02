@@ -32,21 +32,18 @@
   margin-right: 3.5%;
 }
 
+.our-cakes__tile--big--right {
+  margin-left: 3.5%;
+  margin-right: 0;
+}
+
+$small-tiles-gap: 43px;
 .our-cakes__tile--small {
-  height: 650px - 43px / 2;
+  height: 650px - $small-tiles-gap / 2;
   width: 100%;
-  margin-bottom: 43px;
+  margin-bottom: $small-tiles-gap;
 }
 
 .our-cakes__tile--small:last-child {
   margin-bottom: 0px;
-}
-
-.our-cakes__section--reverse {
-  flex-direction: row-reverse;
-}
-
-.our-cakes__tile--reverse {
-  margin-left: 3.5%;
-  margin-right: 0;
 }

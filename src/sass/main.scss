@@ -2,22 +2,13 @@
 @import 'normalize';
 @import 'fonts';
 
-html {
-  background-color: #fff;
-}
-
 body {
-  width: 1366px;
-  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   background-color: #fbebea;
-  box-shadow:
-     10px 0 40px 0 rgba(0, 0, 0, 0.1),  2px 0 9px 0 rgba(62, 57, 107, 0.1),
-    -10px 0 40px 0 rgba(0, 0, 0, 0.1), -2px 0 9px 0 rgba(62, 57, 107, 0.1);
 }
 
-* {
+*, *::after, *::before {
   box-sizing: border-box;
 }
 

@@ -48,3 +48,9 @@ $small-tiles-gap: 43px;
 .our-cakes__tile--small:last-child {
   margin-bottom: 0px;
 }
+
+@media (max-width: 1220px) {
+  .our-cakes {
+    margin-top: 0px;
+  }
+}

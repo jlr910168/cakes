@@ -20,9 +20,17 @@
   flex-direction: row;
 }
 
+.our-cakes__section--reverse {
+  flex-direction: row-reverse;
+}
+
 $section-gap: 3.5%;
-.our-cakes__section:first-of-type {
+.our-cakes__section {
   margin-bottom: $section-gap;
+}
+
+.our-cakes__section:last-child {
+  margin-bottom: 0;
 }
 
 $side-tiles-gap: 3.5%;
@@ -39,7 +47,7 @@ $side-tiles-gap: 3.5%;
   margin-right: $side-tiles-gap;
 }
 
-.our-cakes__tile--big--right {
+.our-cakes__section--reverse .our-cakes__tile--big {
   margin-left: $side-tiles-gap;
   margin-right: 0;
 }
@@ -50,8 +58,12 @@ $small-tiles-gap: 8.861%;
   width: 100%;
 }
 
-.our-cakes__tile--small:first-child {
+.our-cakes__tile--small {
   margin-bottom: $small-tiles-gap;
+}
+
+.our-cakes__tile--small:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 1400px) {
@@ -78,8 +90,58 @@ $small-tiles-gap: 8.861%;
   .our-cakes__section {
     height: 388px;
   }
+}
 
-  .our-cakes__section:first-of-type {
+@media (max-width: 768px) {
+
+  $tile-height-mobile: 120px;
+
+  .our-cakes__heading {
+    font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .our-cakes__wrapper {
+    width: 320px;
+    padding: 0 20px;
+  }
+
+  .our-cakes__section {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .our-cakes__section--reverse {
+    flex-direction: column-reverse;
+  }
+
+  .our-cakes__tile--big {
+    width: 100%;
+    height: $tile-height-mobile;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .our-cakes__section--reverse .our-cakes__tile--big {
+    margin: 0;
+  }
+
+  .our-cakes__tile--big:last-child {
+    margin-bottom: 0;
+  }
+
+  .our-cakes__side-tiles {
+    height: $tile-height-mobile * 2 + 10px;
+    width: 100%;
+  }
+
+  .our-cakes__section--reverse .our-cakes__side-tiles {
+    margin-bottom: 10px;
+  }
+
+  .our-cakes__tile--small {
+    height: $tile-height-mobile;
+    margin-bottom: 10px;
   }
 }

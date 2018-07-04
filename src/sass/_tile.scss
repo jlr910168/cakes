@@ -61,7 +61,7 @@
 .tile--wedding {
   background-image: url('../img/tile--wedding.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 60% center;
 }
 
 .tile--child {
@@ -80,5 +80,71 @@
 .tile--female {
   background-image: url('../img/tile--female.jpg');
   background-repeat: no-repeat;
-  background-position: center 60%;
+  background-position: center center;
+}
+
+@media (max-width: 1220px) {
+  .tile__header-wrapper {
+    top: 22px;
+    left: 25px;
+  }
+
+  .tile__header {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 5px;
+  }
+
+  .tile__amount {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .tile__view {
+    bottom: 20px;
+    right: 40px;
+    font-size: 12px;
+  }
+
+  .tile--classic {
+    background-image: url('../img/tile--classic-m.jpg');
+    background-position: center 60%;
+  }
+
+  .tile--mousse {
+    background-image: url('../img/tile--mousse-m.jpg');
+    background-position: 50% 60%;
+    background-size: auto 80%;
+  }
+
+  .tile--wedding {
+    background-image: url('../img/tile--wedding-m.jpg');
+    background-position: center center;
+  }
+
+  .tile--child {
+    background-image: url('../img/tile--child-m.jpg');
+    background-position: center 70%;
+  }
+
+  .tile--male {
+    background-image: url('../img/tile--male-m.jpg');
+    background-position: center 90%;
+  }
+
+  .tile--female {
+    background-image: url('../img/tile--female-m.jpg');
+    background-position: center 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .tile__view-arrow {
+    display: none;
+  }
+  
+  .tile--wedding {
+    background-image: url('../img/tile--wedding-m.jpg');
+    background-position: 70% 60%;
+  }
 }

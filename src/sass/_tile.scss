@@ -18,13 +18,13 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
+  margin-bottom: 10px;
 }
 
 .tile__amount {
   font-size: 20px;
   line-height: 20px;
   color: #787878;
-  margin-top: 10px;
 }
 
 .tile__view {
@@ -34,16 +34,12 @@
   align-items: center;
   bottom: 35px;
   right: 65px;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 20px;
-  height: 40px;
-  min-width: 40px;
   font-weight: 600;
+  font-size: 20px;
 }
 
-.tile__view:hover {
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+.tile__view-arrow {
+  color: #787878;
 }
 
 .tile--first .tile__view-arrow {
@@ -85,8 +81,4 @@
   background-image: url('../img/tile--female.jpg');
   background-repeat: no-repeat;
   background-position: center 60%;
-}
-
-.tile__view-arrow {
-  color: #787878;
 }

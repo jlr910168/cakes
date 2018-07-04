@@ -142,9 +142,52 @@
   .tile__view-arrow {
     display: none;
   }
-  
+
   .tile--wedding {
     background-image: url('../img/tile--wedding-m.jpg');
     background-position: 70% 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tile__header-wrapper {
+    top: 12px;
+    left: 12px;
+  }
+
+  .tile__view {
+    display: none;
+  }
+
+  .tile--classic {
+    background-image: url('../img/tile--classic-s.jpg');
+    background-position: 80% -30%;
+  }
+
+  .tile--mousse {
+    background-image: url('../img/tile--mousse-s.jpg');
+    background-position: 70% 60%;
+    background-size: auto 100%;
+  }
+
+  .tile--wedding {
+    background-image: url('../img/tile--wedding-s.jpg');
+    background-position: 74% -60%;
+  }
+
+  .tile--child {
+    background-image: url('../img/tile--child-s.jpg');
+    background-position: 80% 10%;
+    background-size: auto;
+  }
+
+  .tile--male {
+    background-image: url('../img/tile--male-s.jpg');
+    background-position: 80% -30%;
+  }
+
+  .tile--female {
+    background-image: url('../img/tile--female-s.jpg');
+    background-position: 80% -30%;
   }
 }

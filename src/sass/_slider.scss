@@ -12,7 +12,7 @@
 
 .slider__slides {
   display: flex;
-  overflow: hidden;
+  // overflow: hidden;
   width: 700px;
 }
 
@@ -49,7 +49,7 @@
   font-size: 22px;
 }
 
-.slider_choose {
+.slider__choose {
   width: 180px;
   left: 500px;
   margin-bottom: 20px;

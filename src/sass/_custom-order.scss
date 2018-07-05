@@ -47,3 +47,16 @@
     padding: 0 20px;
   }
 }
+
+@media (max-width: 1220px) {
+  .custom-order {
+    padding-top: 50px;
+  }
+  .custom-order__step-no {
+    font-size: 24px;
+  }
+
+  .custom-order__step-desc {
+    font-size: 18px;
+  }
+}

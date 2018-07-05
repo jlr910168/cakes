@@ -2,7 +2,7 @@
   .slider__wrapper {
     margin: 0;
   }
-  
+
   .slider__slides {
     width: 100%;
   }
@@ -10,11 +10,13 @@
   .slider__slide {
     width: auto;
     flex-direction: column;
+    align-items: center;
   }
 
+  $slide-pic-size: 240px;
   .slider__slide-pic {
-    width: 230px;
-    height: 230px;
+    width: $slide-pic-size;
+    height: $slide-pic-size;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -39,66 +41,74 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 }
-
 
 .size-pic-wrapper {
   padding: 15px;
   border-radius: 50%;
+
+  &:hover {
+    box-shadow: 0px 6px 12px 0.48px rgba(103, 12, 40, 0.14);
+  }
 }
 
-.size-pic-wrapper:hover {
-  box-shadow: 0px 6px 15.52px 0.48px rgba(103, 12, 40, 0.14);
-}
+$size-1kg-radius: 100px;
+$size-2kg-radius: 150px;
+$size-5kg-radius: 170px;
+$size-8kg-radius: 200px;
 
 .size-pic-1kg {
   border-radius: 50%;
   border: 4px dotted black;
-  width: 100px;
-  height: 100px;
+  width: $size-1kg-radius;
+  height: $size-1kg-radius;
 }
 
 .size-pic-2kg {
   border-radius: 50%;
   border: 4px dotted black;
-  width: 150px;
-  height: 150px;
+  width: $size-2kg-radius;
+  height: $size-2kg-radius;
 }
 
 .size-pic-5kg {
   border-radius: 50%;
   border: 4px dotted black;
-  width: 170px;
-  height: 170px;
+  width: $size-5kg-radius;
+  height: $size-5kg-radius;
   position: relative;
 }
 
+$size-5kg-inner-gap: 13%;
 .size-pic-5kg:before {
   content: '';
   position: absolute;
   border: 4px dotted black;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  top: $size-5kg-inner-gap;
+  left: $size-5kg-inner-gap;
+  right: $size-5kg-inner-gap;
+  bottom: $size-5kg-inner-gap;
   border-radius: 50%;
 }
 
 .size-pic-8kg {
   border-radius: 50%;
   border: 4px dotted black;
-  width: 200px;
-  height: 200px;
+  width: $size-8kg-radius;
+  height: $size-8kg-radius;
   position: relative;
 }
 
+$size-8kg-1st-inner-gap: 15%;
+$size-8kg-2st-inner-gap: 28%;
 .size-pic-8kg:before {
   content: '';
   position: absolute;
-  top: 30px;
-  left: 30px;
-  right: 30px;
-  bottom: 30px;
+  top: $size-8kg-1st-inner-gap;
+  left: $size-8kg-1st-inner-gap;
+  right: $size-8kg-1st-inner-gap;
+  bottom: $size-8kg-1st-inner-gap;
   border-radius: 50%;
   border: 4px dotted black;
 }
@@ -106,10 +116,87 @@
 .size-pic-8kg:after {
   content: '';
   position: absolute;
-  top: 55px;
-  left: 55px;
-  right: 55px;
-  bottom: 55px;
+  top: $size-8kg-2st-inner-gap;
+  left: $size-8kg-2st-inner-gap;
+  right: $size-8kg-2st-inner-gap;
+  bottom: $size-8kg-2st-inner-gap;
   border-radius: 50%;
   border: 4px dotted black;
+}
+
+@media (max-width: 1220px) {
+  $slide-pic-size: 240px * 0.8;
+  .slider--size {
+    .slider__slide-pic {
+      width: $slide-pic-size;
+      height: $slide-pic-size;
+    }
+
+    .size-pic {
+      font-size: 15px;
+    }
+  }
+
+  .size-pic-wrapper {
+    padding: 8px;
+  }
+
+  $size-1kg-radius: 100px * 0.8;
+  $size-2kg-radius: 150px * 0.8;
+  $size-5kg-radius: 170px * 0.8;
+  $size-8kg-radius: 200px * 0.8;
+  .size-pic-1kg {
+    width: $size-1kg-radius;
+    height: $size-1kg-radius;
+  }
+
+  .size-pic-2kg {
+    width: $size-2kg-radius;
+    height: $size-2kg-radius;
+  }
+
+  .size-pic-5kg {
+    width: $size-5kg-radius;
+    height: $size-5kg-radius;
+  }
+
+  .size-pic-8kg {
+    width: $size-8kg-radius;
+    height: $size-8kg-radius;
+  }
+}
+
+@media (max-width: 900px) {
+  $slide-pic-size: 240px * 0.6;
+  .slider--size .slider__slide-pic {
+    width: $slide-pic-size;
+    height: $slide-pic-size;
+  }
+  .size-pic-wrapper {
+    padding: 8px;
+  }
+
+  $size-1kg-radius: 100px * 0.6;
+  $size-2kg-radius: 150px * 0.6;
+  $size-5kg-radius: 170px * 0.6;
+  $size-8kg-radius: 200px * 0.6;
+  .size-pic-1kg {
+    width: $size-1kg-radius;
+    height: $size-1kg-radius;
+  }
+
+  .size-pic-2kg {
+    width: $size-2kg-radius;
+    height: $size-2kg-radius;
+  }
+
+  .size-pic-5kg {
+    width: $size-5kg-radius;
+    height: $size-5kg-radius;
+  }
+
+  .size-pic-8kg {
+    width: $size-8kg-radius;
+    height: $size-8kg-radius;
+  }
 }

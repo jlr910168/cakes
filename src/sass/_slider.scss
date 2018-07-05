@@ -12,18 +12,27 @@
 
 .slider__slides {
   display: flex;
-  // overflow: hidden;
+  overflow: hidden;
   width: 700px;
 }
 
 .slider__slide {
   display: flex;
+  flex-shrink: 0;
   width: 700px;
 }
 
-.slider__slide-pic {
+.slider__slide-pic-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 344px;
   height: 390px;
+  overflow: hidden;
+}
+
+.slider__slide-pic {
+  object-fit: contain;
 }
 
 .slider__slide-desc {

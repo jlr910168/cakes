@@ -4,7 +4,7 @@
   padding-top: 100px;
 }
 
-.custom-order {
+.custom-order__wrapper {
   width: 1220px;
   margin: 0 auto;
 }
@@ -39,4 +39,11 @@
 
 .custom-order__step-desc {
   font-size: 30px;
+}
+
+@media (max-width: 1280px) {
+  .custom-order__wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
 }

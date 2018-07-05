@@ -66,10 +66,10 @@ $small-tiles-gap: 8.861%;
   margin-bottom: 0;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1280px) {
   .our-cakes__wrapper {
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -77,14 +77,9 @@ $small-tiles-gap: 8.861%;
   .our-cakes {
     margin-top: 0px;
   }
-
+  
   .our-cakes__heading {
     margin-bottom: 40px;
-  }
-
-  .our-cakes__wrapper {
-    width: 100%;
-    margin: 0 auto;
   }
 
   .our-cakes__section {

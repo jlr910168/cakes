@@ -55,43 +55,43 @@
   flex-direction: column;
 }
 
-.custom-order__decor-form  {
+.decor-form  {
   margin-top: 30px;
 }
 
-.custom-order__decor-form form {
+.decor-form form {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.custom-order__decor-form__heading {
+.decor-form__heading {
   font-size: 27px;
   margin-bottom: 15px;
 }
 
-.custom-order__decor-form__subheading h2 {
+.decor-form__subheading h2 {
   font-size: 27px;
   color: $form-subheading-color;
 }
 
-.custom-order__decor-form__order {
+.decor-form__order {
   width: 230px;
   align-self: flex-end;
   margin-right: 0;
 }
 
-.custom-order__decor-form__filling-choice {
+.decor-form__filling-choice {
   width: 250px;
   margin-right: 80px;
 }
 
-.custom-order__decor-form__decor-choice {
+.decor-form__decor-choice {
   width: 250px;
   margin-right: 20px;
 }
 
-.custom-order__decor-form__size-choice {
+.decor-form__size-choice {
   width: 137px;
   margin-right: 80px;
 }

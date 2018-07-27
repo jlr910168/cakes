@@ -3,8 +3,9 @@
 }
 
 .our-cakes__wrapper {
-  width: 1220px;
+  width: 1366px;
   margin: 0 auto;
+  padding: 0 73px;
 }
 
 .our-cakes__heading {
@@ -66,14 +67,12 @@ $small-tiles-gap: 8.861%;
   margin-bottom: 0;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1366px) {
   .our-cakes__wrapper {
-    width: 100%;
+    width: 768px;
     padding: 0 20px;
   }
-}
 
-@media (max-width: 1220px) {
   .our-cakes {
     margin-top: 0px;
   }
@@ -92,7 +91,6 @@ $small-tiles-gap: 8.861%;
   $tile-height-mobile: 120px;
 
   .our-cakes__heading {
-    font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
   }

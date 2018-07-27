@@ -83,7 +83,7 @@
   background-position: center center;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1366px) {
   .tile__header-wrapper {
     top: 22px;
     left: 25px;
@@ -144,7 +144,6 @@
   }
 
   .tile--wedding {
-    background-image: url('../img/tile--wedding-m.jpg');
     background-position: 70% 60%;
   }
 }

@@ -37,11 +37,11 @@ button:focus {
   box-shadow: 0px 5px 7px 1px $button-hover-color;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+// img {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+// }
 
 .slide-arrows {
   height: 16px;
@@ -85,6 +85,7 @@ ul, ol {
 @import 'tile';
 @import 'custom-order';
 @import 'slider';
+@import 'filling';
 @import 'size';
 @import 'decor';
 @import 'reviews';

@@ -47,13 +47,13 @@
   }
 }
 
-.decor {
-  background-image: url(../img/decor-background.png);
-  background-repeat: no-repeat;
-  background-position: 5% 50%;
-  display: flex;
-  flex-direction: column;
-}
+// .decor {
+//   background-image: url(../img/decor-background.png);
+//   background-repeat: no-repeat;
+//   background-position: 5% 50%;
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .decor-form  {
   margin-top: 30px;
@@ -94,4 +94,10 @@
 .decor-form__size-choice {
   width: 137px;
   margin-right: 80px;
+}
+
+@media (max-width: 768px) {
+  .decor {
+    background: #fff;
+  }
 }

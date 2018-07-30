@@ -1,14 +1,19 @@
 @import 'variables';
 
 .reviews {
-  width: 100%;
   height: 500px;
   margin-bottom: 150px;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+}
+
+.reviews__wrapper {
+  width: 1366px;
+  padding: 0 73px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .reviews__figures {
@@ -31,6 +36,7 @@
 .reviews__header {
   margin-bottom: 60px;
   margin-top: 115px;
+  text-align: center;
 }
 
 .reviews__slider {
